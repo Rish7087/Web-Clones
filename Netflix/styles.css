@@ -1,0 +1,100 @@
+*{
+    background-color: transparent;
+    color: white;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero_page{
+    height: 75vh;
+    background-image: url(/res/background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.top_bar{
+    align-self: flex-start;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.logo{
+   
+    max-width: fit-content;
+}
+.logo img{
+    height: 6vh;
+}
+.select{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+}
+.select option{
+    background-color: rgba(0,0,0,0.7);
+}
+.btn {
+    background-color: #e50914;
+    border-radius: 5px;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+}
+.container{
+    height: 50%;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1rem;
+}
+
+.container h2{
+    text-align: center;
+    width: 100%;
+}
+.btn2{
+    background-color: #e50914;
+    border-radius: 5px;
+    height: 15%;
+    width: 20%;
+    font-size: 1rem;
+}
+input{
+    height: 15%;
+    width: 40%;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 1.2rem;
+    color: gainsboro;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+.page{
+    height: 75vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tv{
+    height: 80%;
+    width: 100%;
+    background-image: url(/res/tv.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tv video{
+    height: 55%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
